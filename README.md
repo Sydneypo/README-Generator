@@ -1,29 +1,24 @@
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  const avatar = `https://github.com/${data.username}.png?size=50`;
-  const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
-  const licenseIcon = `http://img.shields.io/badge/license-${data.license}-brightgreen.svg`;
 
-  return `
   
-  # ${data.title}
+  # README-Generator
 
-  \n![${data.license}](${licenseIcon})
+  
+![MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)
 
   ### App Demo
   ![](images/readme-generator.gif)
 
   ### User Story
 
-  \`\`\`text
+  ```text
     AS A developer
     I WANT a README generator
     SO THAT I can quickly create a professional README for a new project
-  \`\`\`
+  ```
 
   ### Acceptance Criteria
 
-  \`\`\`text
+  ```text
     GIVEN a command-line application that accepts user input
     WHEN I am prompted for information about my application repository
     THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -39,10 +34,10 @@ function generateMarkdown(data) {
     THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
     WHEN I click on the links in the Table of Contents
     THEN I am taken to the corresponding section of the README
-  \`\`\`
+  ```
 
   ### Description
-  *${data.description}*
+  *A Node.js application built with inquirer questions. Using markdown language users are able to generate a professional readme by answering the questions through the command-line.*
 
   ### Table of Contents
   - [Installation](#installation)
@@ -53,26 +48,26 @@ function generateMarkdown(data) {
   - [Details](#details)
 
   ### Installation
-  Packages required to run this program are: ${data.installation}
+  Packages required to run this program are: inquirer, axios
 
   ### Usage
-  Examples of how to use this program: ${data.usage}
+  Examples of how to use this program: Automatically generates a readme file
 
   ### License
-  ${data.license}
+  MIT
 
   ### Tests
-  To test, run the following command: ${data.tests}
+  To test, run the following command: N/A
 
   ### Contributors 
-  ${data.contributer}
+  Sydney Porter
 
   ### Contact
-  \n![Badge](${gitHub})
-  \n![Profile Image](${avatar})
-  \nView the project in GitHub at: ${data.url}
-  \nIf you have any questions, contact the author directly at ${data.email}.`;
   
-}
-
-module.exports = generateMarkdown;
+![Badge](https://img.shields.io/badge/Github-Sydneypo-4cbbb9)
+  
+![Profile Image](https://github.com/Sydneypo.png?size=50)
+  
+View the project in GitHub at: www.github.com/Sydneypo/README-generator
+  
+If you have any questions, contact the author directly at sydneyporter74@yahoo.com.
