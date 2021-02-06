@@ -1,12 +1,12 @@
 
   
-  # README-Generator
+  # README-generator
 
   
 ![MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)
 
   ### App Demo
-  ![](images/readme-generator.gif)
+  ![Click Here](https://youtu.be/vI5_x4nRRIo)
 
   ### User Story
 
@@ -37,7 +37,7 @@
   ```
 
   ### Description
-  *A Node.js application built with inquirer questions. Using markdown language users are able to generate a professional readme by answering the questions through the command-line.*
+  *Readme file generator using inquirer to prompt user for answers to the listed questions.*
 
   ### Table of Contents
   - [Installation](#installation)
@@ -51,23 +51,23 @@
   Packages required to run this program are: inquirer, axios
 
   ### Usage
-  Examples of how to use this program: Automatically generates a readme file
+  Examples of how to use this program: Can automatically generate a readme file using user input
 
   ### License
   MIT
 
   ### Tests
-  To test, run the following command: N/A
+  To test, run the following command: n/a
 
   ### Contributors 
   Sydney Porter
 
   ### Contact
   
-![Badge](https://img.shields.io/badge/Github-Sydneypo-4cbbb9)
+![Badge](https://img.shields.io/badge/Github-sydneypo-4cbbb9)
   
-![Profile Image](https://github.com/Sydneypo.png?size=50)
+![Profile Image](https://github.com/sydneypo.png?size=50)
   
-View the project in GitHub at: www.github.com/Sydneypo/README-generator
+View the project in GitHub at: www.github.com/sydneypo/readme-generator
   
 If you have any questions, contact the author directly at sydneyporter74@yahoo.com.
