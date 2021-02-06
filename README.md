@@ -6,7 +6,7 @@
 ![MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)
 
   ### App Demo
-  ![Click Here](https://youtu.be/vI5_x4nRRIo)
+  [Click Here](https://youtu.be/vI5_x4nRRIo)
 
   ### User Story
 
